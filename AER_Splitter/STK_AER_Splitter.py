@@ -37,4 +37,4 @@ def write_output_file(file_name, lines):
 
 # Usage example
 generate_files(
-    'file_path')
+    'Place-White_House_DC-To-Satellite-SPACEBEE-113_52024_AER.txt')
