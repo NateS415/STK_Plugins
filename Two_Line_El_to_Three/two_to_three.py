@@ -51,8 +51,8 @@ def process_tle_file(input_file, output_file):
 
 
 # Specify the input and output file paths
-input_file = 'Two_Line_El_to_Three/Hollis_TLE_1200to1230.txt'
-output_file = 'Two_Line_El_to_Three/Hollis_ThreeLine_1200to1230.txt'
+input_file = 'Two_Line_El_to_Three/Roof_Test_5hrs_TLE.txt'
+output_file = 'Two_Line_El_to_Three/Roof_Test_5hrs_ThreeLineElement.txt'
 
 # Process the TLE file
 process_tle_file(input_file, output_file)
