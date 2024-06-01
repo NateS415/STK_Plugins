@@ -1,6 +1,5 @@
 import requests
 
-
 def get_satellite_name(ssc_number):
     """
     Retrieve the satellite name from the Celestrak API using the SSC number.
@@ -20,9 +19,7 @@ def get_satellite_name(ssc_number):
 
 
 def process_tle_file(input_file, output_file):
-    """
-    Process the input TLE file, remove empty lines, and convert to the 3-line element format.
-    """
+    # Process the input TLE file, remove empty lines, and convert to the 3-line element format.
     with open(input_file, 'r') as infile:
         lines = infile.readlines()
 
