@@ -47,9 +47,11 @@ def process_tle_file(input_file, output_file):
             outfile.write(f"{line2}\n")
 
 
+time = 1400
+
 # Specify the input and output file paths
-input_file = 'Two_Line_El_to_Three/Roof_Test_5hrs_TLE.txt'
-output_file = 'Two_Line_El_to_Three/Roof_Test_5hrs_ThreeLineElement.txt'
+input_file = f"Two_Line_El_to_Three/06_05_Demo/{time}_TLE.txt"
+output_file = f"Two_Line_El_to_Three/{time}_ThreeLine.txt"
 
 # Process the TLE file
 process_tle_file(input_file, output_file)
